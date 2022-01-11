@@ -1,46 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OnirixTest</title>
-    <script async type="module" src="app.js"></script>
-
-    <!-- three.js -->
-    <script src="https://unpkg.com/three@0.126.0/build/three.js"></script>
-    <script src="https://unpkg.com/three@0.126.0/examples/js/loaders/GLTFLoader.js"></script>
-    
-    <!--Aframe  -->
-    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
-    <!-- 이거 해야 애니메이션 움직임 -->
-    <script src="https://cdn.jsdelivr.net/gh/donmccurdy/aframe-extras@v6.1.0/dist/aframe-extras.min.js"></script>
-</head>
-<body>
-    <h1>hello</h1>
-    <a-scene>
-        <!-- Asset Management System-->
-        <a-assets>
-          <!-- <a-asset-item id="dragon" src="./assets/dragon/scene.gltf"></a-asset-item> -->
-          <a-asset-item id="dragon" src="./assets/bee-gltf/source/bee_gltf.gltf"></a-asset-item>
-          <a-asset-item id="city" src="./assets/city/scene.gltf"></a-asset-item>
-        </a-assets>
-        
-        <!--City GLTF model-->
-        <a-entity gltf-model="#city" 
-        rotation="0 -90 0" 
-        scale="0.0005 0.0005 0.0005"  
-        position=".07 1 -.5"
-        ></a-entity>
-
-        <!--Dragon GLTF model-->
-        <a-entity gltf-model="#dragon"
-        scale="1 1 1"
-        rotation="0 270 0"
-        position="0.5 1.02 -0.7"
-        animation-mixer
-        ></a-entity>
-        
-    </a-scene>
-</body>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
+        <title>ggongjukim test</title>
+        <script async type="module" src="app.js"></script>
+        <link rel="stylesheet" href="app.css" />
+    </head>
+    <body>
+        <div id="loading-screen">
+            <div class="bounce1"></div>
+            <div class="bounce2"></div>
+            <div class="bounce3"></div>
+        </div>
+        <div id="error-screen">
+            <span id="error-title"></span>
+            <span id="error-message"></span>
+        </div>
+    </body>
 </html>

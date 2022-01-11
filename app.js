@@ -136,7 +136,7 @@ function onTouch(touchPos) {
 //eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjk5MTgsInByb2plY3RJZCI6MjIyODQsInJvbGUiOjMsImlhdCI6MTY0MTg4MTQ2Mn0._-YkyA-y8wrltcs_-u5t_BVwOoGd4LzLQuXbiJ6SJiU -> 내꺼
 //eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjUyMDIsInByb2plY3RJZCI6MTQ0MjgsInJvbGUiOjMsImlhdCI6MTYxNjc1ODY5NX0.8F5eAPcBGaHzSSLuQAEgpdja9aEZ6Ca_Ll9wg84Rp5k-> 깃헙꺼 origin
 
-let OX = new OnirixSDK("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjk5MTgsInByb2plY3RJZCI6MjIyODQsInJvbGUiOjMsImlhdCI6MTY0MTg4MTQ2Mn0._-YkyA-y8wrltcs_-u5t_BVwOoGd4LzLQuXbiJ6SJiU");
+let OX = new OnirixSDK("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjUyMDIsInByb2plY3RJZCI6MTQ0MjgsInJvbGUiOjMsImlhdCI6MTYxNjc1ODY5NX0.8F5eAPcBGaHzSSLuQAEgpdja9aEZ6Ca_Ll9wg84Rp5k");
 
 let config = {
     mode: OnirixSDK.TrackingMode.Surface

@@ -198,7 +198,7 @@ function changemodelColor(value) {
 
 // ====== Onirix SDK ======
 //eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjUyMDIsInByb2plY3RJZCI6MTQ0MjgsInJvbGUiOjMsImlhdCI6MTYxNjc1ODY5NX0.8F5eAPcBGaHzSSLuQAEgpdja9aEZ6Ca_Ll9wg84Rp5k//github
-let OX = new OnirixSDK("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjUyMDIsInByb2plY3RJZCI6MTQ0MjgsInJvbGUiOjMsImlhdCI6MTYxNjc1ODY5NX0.8F5eAPcBGaHzSSLuQAEgpdja9aEZ6Ca_Ll9wg84Rp5k");
+let OX = new OnirixSDK("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjk5OTMsInByb2plY3RJZCI6MjI1NjMsInJvbGUiOjMsImlhdCI6MTY0MzAwMjU5OX0.80ufqvDSnx_CTY_Lu3Tfkp1iRdAtIT384gyVlWJ0tQI");
 
 let config = {
     mode: OnirixSDK.TrackingMode.Surface
